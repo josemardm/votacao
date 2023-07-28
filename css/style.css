@@ -52,7 +52,7 @@ card_google > p{
 
 /* BARRA LATERAL --------------------------------------------------------------------*/
 .barra-lateral {
-    background: linear-gradient(180deg,#148bbe,#003232);
+    background: linear-gradient(180deg,#148bbe,#003535);
     /*background-color: #003232;*/
     width: 25%;
     height: 100vh;
