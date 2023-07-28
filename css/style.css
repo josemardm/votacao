@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+/* PRINCIPAL - CENTRO --------------------------------------------------------------------*/
+.container-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;   
+}
+
+.container-principal h1 {
+    margin-top: 60px;
+    color: #004040;
+    font-size: 2.5cqmax;
+}
+.container-principal >p{
+    width: 30cqmax;
+    text-align: center;
+    font-size: 2cqmax;
+    color: rgb(109, 109, 109);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    
+}
+/* BOTAO GOOGLE -----------*/
+card_google{ 
+    position: absolute;
+    display: flex;   
+    flex-direction: column;  
+    align-items: center;  
+    text-align: center;
+    font-size: 1.5cqmax;
+    color: grey;
+    bottom: 30px;        
+}
+card_google > p{
+    width: 400px;
+    margin-bottom: 10px;
+    font-size: 1.2cqmax;
+}
+
+/* BARRA LATERAL --------------------------------------------------------------------*/
+.barra-lateral {
+    background-color: #003232;
+    width: 25%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.card-logo {
+    position: absolute;
+    bottom: 30px;
+}
+
+.card-logo img {
+    width: 40px;
+    height: 40px;
+    background-color: #3498db;
+    border-radius: 50%;
+}
+
+.card-logo p {
+    padding: 10px 0px 0px 0px;
+    margin: 0;
+    color: grey;
+    font-size: 12px;
+}
+
+.urna img {
+    position: absolute;
+    left: 20px;
+    top: 30px;
+    width: 35vw;
+    height: auto;
+
+}
+/*--------------------------------------------------------------------*/
+
