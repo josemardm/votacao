@@ -1,0 +1,72 @@
+html {
+    height: 100%;
+}
+
+body {
+
+    background: linear-gradient(180deg, #148bbe, #003535);
+    color: white;
+    font-family: poppinsregular;
+    max-width: 1200px;
+    margin: auto;
+    padding: 15px;
+
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 15px;
+}
+
+h1 {
+    font-weight: 200;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2 {
+    margin: 0;
+    font-size: 45px;
+    line-height: 50px;
+    font-family: poppinsmedium;
+}
+
+p {
+    line-height: 20px;
+    max-width: 500px;
+    font-family: poppinslight;
+}
+
+img {
+    width: 550px;
+    margin: 0;
+    padding: 0;
+}
+
+card_google {
+    display: flex;
+    flex-direction: column;
+    font-weight: 200;
+    color: rgb(8, 68, 79);
+    font-size: 15px;       
+}
+
+card_google p {
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+header img {
+    width: 100px;
+    opacity: 100%;
+    border-radius: 0%;
+    opacity: 50%;
+}
