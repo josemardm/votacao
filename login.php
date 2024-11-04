@@ -20,7 +20,7 @@ if($_POST['g_csrf_token'] != $cookie){
     exit;
 }
 
-$CLIENT_ID = "521051242555-gver8morcu70976qqssb9bii0b3dr8pf.apps.googleusercontent.com";
+$CLIENT_ID = "";
 
 
 // Get $id_token via HTTPS POST.
